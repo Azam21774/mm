@@ -1,0 +1,22 @@
+.con{
+   display: grid;
+   gap: 12px;
+}
+
+.inputcon{
+    width: 100%;
+}
+
+.inputcon{
+    grid-row: 1;
+}
+
+.tags{
+    grid-row: 2;
+    width: 100%;
+}
+
+/* code for small screen */
+
+@media screen and (max-width: 1000px){
+}

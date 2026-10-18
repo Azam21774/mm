@@ -1,0 +1,70 @@
+
+html, body{
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.csv-input label{
+    color: #19509d;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.csv-input input[type="file"]{
+    width: 100px;
+    display: none;
+}
+
+input[type=file]::file-selector-button {
+    display: none;
+}
+
+
+.modalFooter{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.sahdowbox{
+    box-shadow: -1px 2px 8px 6px rgba(0, 0, 0, 0.153);
+    background-color: #222222 !important;
+}
+
+.sahdowbox:hover{
+    scale: 1.01;
+    box-shadow: -1px 2px 8px 6px rgba(0, 0, 0, 0.307)
+}
+
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+  }
+
+
+ 
+
+  .blinking-badge {
+    animation: blink 1s linear infinite;
+  }
+
+
+  .pointer{
+      cursor: pointer;
+  }
+
+  /* Hide scrollbar for all elements */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}

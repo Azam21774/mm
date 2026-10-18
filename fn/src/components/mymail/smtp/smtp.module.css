@@ -1,0 +1,53 @@
+.con{
+    display: flex;
+    width: 100%;
+
+    flex-direction: column;
+    
+}
+
+.csvReader{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+
+
+    
+}
+.proxyReader{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.smtpCard{
+    width: 80%;
+    max-width: 800px;
+    margin: 0px 00px !important;
+    
+
+}
+
+.card{
+    display: flex;
+}
+
+
+.btnPxy{
+    margin-left: 20px;
+}
+
+.testbtn{
+   
+}
+
+.count{
+}
+
+.select{
+    margin-right: 20PX;
+}
+.failed{
+    
+}

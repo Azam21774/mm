@@ -1,0 +1,6 @@
+user@example.com,smtp-password,smtp.mailserver.com,587,
+no-reply@domain.com,pass-pass,smtp.domain.com,465,secure
+user@example.com,smtp-password,smtp.mailserver.com,587,secure
+user@example.com,smtp-password,smtp.mailserver.com,25,
+you@gmail.com,app-password,smtp.gmail.com,465,secure
+you@gmail.com,app-password,smtp.gmail.com,587,

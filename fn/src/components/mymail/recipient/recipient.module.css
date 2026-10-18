@@ -1,0 +1,32 @@
+
+.con{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.csvReader{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+   
+}
+
+.table{
+  width: 100%;
+ 
+}
+
+.info{
+
+}
+
+
+/* code for small screen */
+
+@media screen and (max-width: 1000px){
+   
+}
+
+

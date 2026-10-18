@@ -1,0 +1,12 @@
+node_modules/
+fn/node_modules/
+fn/.next/
+.DS_Store
+.env
+.env.*
+!.env.example
+out-backup-*/
+local-only-backup-*/
+*-backup-*/
+*.backup-*
+*.before-*

@@ -1,0 +1,31 @@
+{
+  "name": "mmbkend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "electron-main.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "chalk": "^4.1.2",
+    "compress-pdf": "^0.5.3",
+    "electron-is-dev": "^3.0.1",
+    "exceljs": "^4.4.0",
+    "express": "^5.1.0",
+    "figlet": "^1.11.0",
+    "googleapis": "^148.0.0",
+    "html-to-docx": "^1.8.0",
+    "mustache": "^4.2.0",
+    "nodemailer": "^7.0.3",
+    "open": "^8.4.2",
+    "ordersid-generator": "^1.9.3",
+    "path": "^0.12.7",
+    "pdf-lib": "^1.17.1",
+    "pptxgenjs": "^4.0.1",
+    "puppeteer": "^24.8.2",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "electron": "^41.7.1"
+  }
+}
